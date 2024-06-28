@@ -578,16 +578,16 @@ video {
   margin-bottom: 0.5rem;
 }
 
-.mt-36 {
-  margin-top: 9rem;
-}
-
 .mb-4 {
   margin-bottom: 1rem;
 }
 
 .mb-8 {
   margin-bottom: 2rem;
+}
+
+.mt-36 {
+  margin-top: 9rem;
 }
 
 .block {
@@ -640,8 +640,8 @@ video {
   font-family: EB Garamond, serif;
 }
 
-.text-13xl {
-  font-size: 16.563rem;
+.text-10xl {
+  font-size: 7.188rem;
 }
 
 .text-3xl {
@@ -667,18 +667,6 @@ video {
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
-}
-
-.text-12xl {
-  font-size: 10.188rem;
-}
-
-.text-11xl {
-  font-size: 10rem;
-}
-
-.text-10xl {
-  font-size: 7.188rem;
 }
 
 .font-bold {
@@ -726,11 +714,6 @@ video {
     margin-bottom: 2rem;
   }
 
-  .xl\:my-10 {
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
-  }
-
   .xl\:inline {
     display: inline;
   }
@@ -758,10 +741,6 @@ video {
 
   .xl\:leading-normal {
     line-height: 1.5;
-  }
-
-  .xl\:leading-tight {
-    line-height: 1.25;
   }
 
   .xl\:leading-snug {
