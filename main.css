@@ -582,6 +582,14 @@ video {
   margin-top: 9rem;
 }
 
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
 .block {
   display: block;
 }
@@ -661,6 +669,18 @@ video {
   line-height: 1.5rem;
 }
 
+.text-12xl {
+  font-size: 10.188rem;
+}
+
+.text-11xl {
+  font-size: 10rem;
+}
+
+.text-10xl {
+  font-size: 7.188rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -706,6 +726,11 @@ video {
     margin-bottom: 2rem;
   }
 
+  .xl\:my-10 {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+
   .xl\:inline {
     display: inline;
   }
@@ -733,5 +758,13 @@ video {
 
   .xl\:leading-normal {
     line-height: 1.5;
+  }
+
+  .xl\:leading-tight {
+    line-height: 1.25;
+  }
+
+  .xl\:leading-snug {
+    line-height: 1.375;
   }
 }
