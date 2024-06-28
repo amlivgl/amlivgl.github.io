@@ -1,5 +1,1 @@
-# Landingpage
-Hello! This is my landingpage.
-
-## Link
-<https://amelie-vogel.com>
+Run tailwind to create output css: `npx tailwindcss -i ./base.css -o ./main.css --watch`
