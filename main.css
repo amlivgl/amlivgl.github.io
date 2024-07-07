@@ -559,6 +559,11 @@ video {
   margin-right: 0.5rem;
 }
 
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
 .my-16 {
   margin-top: 4rem;
   margin-bottom: 4rem;
@@ -567,6 +572,11 @@ video {
 .my-5 {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
+}
+
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .my-8 {
@@ -590,6 +600,14 @@ video {
   margin-top: 9rem;
 }
 
+.ml-6 {
+  margin-left: 1.5rem;
+}
+
+.ml-7 {
+  margin-left: 1.75rem;
+}
+
 .block {
   display: block;
 }
@@ -598,12 +616,20 @@ video {
   display: flex;
 }
 
+.list-item {
+  display: list-item;
+}
+
 .w-full {
   width: 100%;
 }
 
 .max-w-7xl {
   max-width: 80rem;
+}
+
+.list-disc {
+  list-style-type: disc;
 }
 
 .flex-col {
@@ -647,11 +673,6 @@ video {
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
 }
 
 .text-5xl {
@@ -703,6 +724,14 @@ video {
   text-decoration-line: underline;
 }
 
+.marker\:text-main-accent *::marker {
+  color: rgb(255 253 199 );
+}
+
+.marker\:text-main-accent::marker {
+  color: rgb(255 253 199 );
+}
+
 @media (min-width: 1280px) {
   .xl\:mx-auto {
     margin-left: auto;
@@ -714,16 +743,24 @@ video {
     margin-bottom: 2rem;
   }
 
+  .xl\:ml-0 {
+    margin-left: 0px;
+  }
+
   .xl\:inline {
     display: inline;
+  }
+
+  .xl\:flex {
+    display: flex;
   }
 
   .xl\:flex-row {
     flex-direction: row;
   }
 
-  .xl\:text-10xl {
-    font-size: 7.188rem;
+  .xl\:justify-between {
+    justify-content: space-between;
   }
 
   .xl\:text-11xl {
