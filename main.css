@@ -584,6 +584,11 @@ video {
   margin-bottom: 2rem;
 }
 
+.my-32 {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -624,6 +629,10 @@ video {
   flex-direction: column;
 }
 
+.items-center {
+  align-items: center;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -644,6 +653,10 @@ video {
 .bg-main-bg {
   --tw-bg-opacity: 1;
   background-color: rgb(255 194 238 / var(--tw-bg-opacity));
+}
+
+.align-middle {
+  vertical-align: middle;
 }
 
 .font-ebgaramond {
